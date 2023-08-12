@@ -1,0 +1,85 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-open {
+  display: none;
+}
+
+.menu-open-button {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+  background-color: #d21c3b;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 9px;
+}
+
+.menu-line {
+  margin: 2px 2px 6px 17px;;
+  height: 2px;
+  width: 14px;
+  background: white;
+}
+
+.menu-item {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #d21c3b;
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 5px;
+}
+
+.menu-open-button:hover {
+  height: 3.2rem;
+  width: 3.2rem;
+  transition: 0.1s ease-out;
+}
+
+.menu-open-button:hover .menu-line-1 {
+  margin-top: 13px;
+  transition: 0.1s ease-out;
+}
+
+.menu-open-button:hover .menu-line {
+  margin-top: 9px auto;
+}
+
+.menu-line-1 {
+  margin-top: 12px;
+}
+
+.menu-open:checked ~ .menu-open-button,
+.menu-open:checked ~ .menu-item {
+  height: 3rem;
+  width: 3rem;
+  font-size: 17px;
+}
+
+.menu-open:checked ~ .menu-open-button > .menu-line-1 {
+  transform: rotate(405deg);
+  margin-top: 11.5px;
+  transition: 0.1s ease-out;
+}
+
+.menu-open:checked ~ .menu-open-button > .menu-line-2 {
+  transform: rotate(-405deg);
+  margin-top: -1.5px;
+  transition: 0.1s ease-out;
+}
+
+.menu-open:checked ~ .menu-open-button > .menu-line-3 {
+  display: none;
+}
+
+
+.menu-open:checked ~ .menu-item {
+  display: flex;
+}
