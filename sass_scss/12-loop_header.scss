@@ -1,0 +1,7 @@
+/* looping headers */ 
+
+@for $number from 1 through 5 {
+    H#{$number} {
+        font-size: $number;
+    }
+}

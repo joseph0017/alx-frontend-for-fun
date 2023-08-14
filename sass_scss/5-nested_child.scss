@@ -1,0 +1,12 @@
+/* nested child mwahaha */ 
+
+$primary-color: #3D3D3D;
+$secondary-color: #FF0000;
+
+body {
+    color: $primary-color;
+
+    > .red {
+        color: $secondary-color;
+    }
+}

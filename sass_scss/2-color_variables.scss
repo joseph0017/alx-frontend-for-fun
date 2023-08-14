@@ -1,0 +1,17 @@
+/* 2-color_variables.scss */ 
+
+$primary-color: #3D3D3D;
+$background-color: #3D3D3D;
+
+body {
+    color: $primary-color;
+    background-color: $background-color;
+}
+
+p {
+    color: $primary-color;
+}
+
+h2 {
+    background-color: $background-color;
+}
