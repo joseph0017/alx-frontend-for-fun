@@ -1,7 +1,7 @@
 /* 2-color_variables.scss */
 body {
   color: #3D3D3D;
-  background-color: #3D3D3D;
+  background-color: #6D6D6D;
 }
 
 p {
@@ -9,5 +9,5 @@ p {
 }
 
 h2 {
-  background-color: #3D3D3D;
+  background-color: #6D6D6D;
 }/*# sourceMappingURL=2-color_variables.css.map */
