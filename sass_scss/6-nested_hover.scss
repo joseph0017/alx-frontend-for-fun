@@ -1,12 +1,9 @@
 /* nested hovering 000hhhh */ 
 
-$text-color-btn: #FF0000;
-$text-color-btn-hover: #00FF00;
-
 button {
-    color: $text-color-btn;
+    color: #FF0000;
 
     &:hover {
-        color: $text-color-btn-hover;
+        color: #00FF00;
     }
 }
